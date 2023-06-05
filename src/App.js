@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from './components/Home';
+import About from './components/About';
 
 const App = () => {
   return (
@@ -36,7 +37,7 @@ const App = () => {
         <Home/>
       </div>
       <div id="about" className="about-container">
-
+        <About/>
       </div>
     </>
   )
