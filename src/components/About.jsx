@@ -36,7 +36,7 @@ export const About = () => {
             </div>
             <div className='about-content-container'>
                 <div className='about-inner-container'>
-                    <h1 style={{ marginLeft: '0%', color: '#f77a52', marginTop:'7%' }}>Kushal Majiwala</h1>
+                    <h1 style={{ marginLeft: '1%', color: '#f77a52', marginTop:'7%' }}>Kushal Majiwala</h1>
                     <div className='about-content'>
                         <p>My name is Kushal. I live in Surat. I am a full stack developer. I am a passionate learner. I have completed MSCIT from VNSGU. I have completed 6 months internship at Avinashi Ventures. I worked in Vuejs for frontend and .NET for backend during that time period. I worked on two projects in my internship.</p>
                         <p>I have worked in many frontend projects and deployed those projects on internet using cloudflare web service.</p>
