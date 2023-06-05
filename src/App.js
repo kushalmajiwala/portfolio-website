@@ -37,7 +37,7 @@ const App = () => {
           </div>
         </div>
       </nav>
-      <div style={{display:'inline'}}>
+      <div style={{ display: 'inline' }}>
         <div id="home" className="home-container">
           <Home />
         </div>
@@ -47,11 +47,11 @@ const App = () => {
         <div id="experience" className="exp-container">
           <Experience />
         </div>
-        <div id="contact" className="contact-container">
-          <Contact />
-        </div>
         <div id="project" className="project-container">
           <Project />
+        </div>
+        <div id="contact" className="contact-container">
+          <Contact />
         </div>
       </div>
     </>

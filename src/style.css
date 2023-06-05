@@ -35,6 +35,7 @@
     width: 95%;
     height: 95%;
 }
+
 .developer-image-exp {
     width: 80%;
     height: 80%;
@@ -71,6 +72,7 @@
     height: 100vh;
     background-color: #323061;
 }
+
 .about-container {
     background-color: #323061;
 }
@@ -88,8 +90,8 @@
 }
 
 .about-text,
-.exp-text, 
-.contact-text, 
+.exp-text,
+.contact-text,
 .project-text {
     font-size: 30px;
     height: 30px;
@@ -98,11 +100,12 @@
 }
 
 .about-content-container {
-   /* background-color: green; */
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .about-inner-container {
     width: 50%;
     margin-bottom: 7%;
@@ -191,8 +194,9 @@
 }
 
 .skill-container {
-    padding-top: 7%; 
+    padding-top: 7%;
 }
+
 .skill-percent {
     width: 70%;
     height: 10px;
@@ -202,6 +206,7 @@
     border-top-left-radius: 10px;
     cursor: pointer;
 }
+
 .total-skill-percent {
     width: 30%;
     height: 10px;
@@ -211,27 +216,35 @@
     border-top-right-radius: 10px;
     cursor: pointer;
 }
+
 .reactSkill {
     width: 90%;
 }
+
 .totalReactSkill {
     width: 10%;
 }
+
 .vueSkill {
     width: 70%;
 }
+
 .totalVueSkill {
     width: 30%;
 }
-.nodeSkill{
+
+.nodeSkill {
     width: 80%;
 }
-.totalNodeSkill{
+
+.totalNodeSkill {
     width: 20%;
 }
+
 .javaSkill {
     width: 60%;
 }
+
 .totalJavaSkill {
     width: 40%;
 }
@@ -240,6 +253,7 @@
     display: flex;
     color: white;
 }
+
 .exp-pic-container {
     width: 50%;
     display: flex;
@@ -247,6 +261,7 @@
     align-items: center;
     background-color: #323061;
 }
+
 .exp-info-container {
     width: 50%;
     display: flex;
@@ -256,20 +271,32 @@
 }
 
 @media only screen and (max-width: 992px) {
+
+    .about-text,
+    .exp-text,
+    .contact-text,
+    .project-text {
+        padding: 2.7%;
+    }
+
     .about-inner-container {
         width: 100%;
         /* padding-left: 10%; */
     }
+
     .exp-content-container {
         display: inline;
     }
+
     .nav-container {
         margin-left: 0%;
     }
+
     .exp-pic-container {
         width: 100%;
     }
-    .exp-info-container{
+
+    .exp-info-container {
         width: 100%;
         padding-left: 4%;
     }
@@ -278,14 +305,14 @@
         background-color: #110F2B;
         display: inline;
     }
-    .home-info-container 
-    {   
+
+    .home-info-container {
         width: 100%;
         padding-top: 7%;
         padding-bottom: 7%;
-    }   
-    .home-pic-container
-    {
+    }
+
+    .home-pic-container {
         width: 100%;
     }
 
@@ -326,9 +353,11 @@
     .about-text {
         padding: 2.4%;
     }
+
     .skill-container {
         padding-left: 5%;
     }
+
     .exp-info-container h1 {
         margin-left: 0%;
         text-align: center;
