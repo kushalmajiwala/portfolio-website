@@ -1,6 +1,10 @@
 import React from 'react';
 import Home from './components/Home';
 import About from './components/About';
+import Experience from './components/Experience';
+import Contact from './components/Contact'
+import Project from './components/Project';
+import './style.css';
 
 const App = () => {
   return (
@@ -33,11 +37,22 @@ const App = () => {
           </div>
         </div>
       </nav>
-      <div id="home" className="home-container">
-        <Home/>
-      </div>
-      <div id="about" className="about-container">
-        <About/>
+      <div style={{display:'inline'}}>
+        <div id="home" className="home-container">
+          <Home />
+        </div>
+        <div id="about" className="about-container">
+          <About />
+        </div>
+        <div id="experience" className="exp-container">
+          <Experience />
+        </div>
+        <div id="contact" className="contact-container">
+          <Contact />
+        </div>
+        <div id="project" className="project-container">
+          <Project />
+        </div>
       </div>
     </>
   )

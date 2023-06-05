@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import Typed from 'typed.js';
-import '../style.css';
 
 const Home = () => {
     useEffect(() => {
@@ -41,7 +40,7 @@ const Home = () => {
             </div>
             <div className='home-pic-container'>
                 {/* eslint-disable-next-line */}
-                <img src='https://ivabqohtumjadxnipnsa.supabase.co/storage/v1/object/public/images/developer.png' alt="no-image" className='developer-image' />
+                <img src='https://ivabqohtumjadxnipnsa.supabase.co/storage/v1/object/public/images/developer.png' alt="no-image" className='developer-image-home' />
             </div>
         </>
     )
