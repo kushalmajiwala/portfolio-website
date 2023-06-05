@@ -189,13 +189,10 @@
 }
 
 .exp-content-container {
-    width: 100%;
-    height: 80%;
     display: flex;
-    /* justify-content: space-around; */
-    background-color: gray;
 }
 .exp-pic-container {
+    padding-top: 5%;
     width: 100%;
     height: 100%;
     display: flex;
@@ -208,13 +205,13 @@
     height: 100%;
     background-color: #323061;
     color: white;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 .exp-info-container h1 {
     margin-left: 10%;
 }
 .exp-content {
-    margin-top: 5%;
+    padding-top: 5%;
     padding-left: 5%;
     width: 90%;
 }
@@ -314,16 +311,17 @@
         padding: 2.4%;
     }
     .exp-container {
-        height: 160vh;
+        height: 150vh;
     }
+
     .exp-content-container {
         display: inline;
     }
     .exp-pic-container {
-        height: 45%;
+        height: 40%;
     }
     .exp-info-container {
-        height: 45%;
+        height: 40%;
         padding-top: 0%;
     }
     .skill-container {
