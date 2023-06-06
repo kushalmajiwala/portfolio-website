@@ -390,7 +390,13 @@ p {
         background-color: red;
         padding-left: 0%;
     }
-
+    .project-content-container {
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+    .project-desc-container {
+        padding-bottom: 10%;
+    }
 
     .project-image {
         height: 180px;
@@ -399,6 +405,7 @@ p {
     .project-pic-container {
         width: 100%;
         text-align: center;
+        padding-top: 10%;
     }
     .project-name {
         font-size: 20px;
