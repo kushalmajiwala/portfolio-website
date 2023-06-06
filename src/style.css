@@ -64,17 +64,31 @@
     background-color: #46466e;
 }
 
-.contact-container,
 .project-container {
     width: 100%;
     height: 100vh;
     background-color: #323061;
 }
 
+.contact-container {
+    background-color: #323061;
+    color: white;
+}
+
 .about-container {
     background-color: #323061;
 }
-
+.contact-btn {
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: #0f0f41;
+    color: white;
+}
+.contact-btn:hover {
+    background-color: #262644;
+}
 
 .about-heading-container,
 .exp-heading-container,
@@ -276,6 +290,12 @@
     .contact-text,
     .project-text {
         padding: 2.7%;
+    }
+    .contact-text-container {
+        margin-top: -7%;
+    }
+    .contact-form-container {
+        padding-top: 7%;
     }
 
     .about-inner-container {
