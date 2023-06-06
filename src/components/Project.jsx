@@ -38,7 +38,7 @@ const Project = () => {
                                         <Tooltip target=".visit-btn">
                                             View Project
                                         </Tooltip>
-                                        <Button icon="pi pi-eye" className="p-button-rounded visit-btn" data-pr-position='bottom' onClick={() => handleViewButtonClick(project.link)}></Button>
+                                        <Button icon="pi pi-eye" className="p-button-rounded visit-btn" data-pr-position='left' onClick={() => handleViewButtonClick(project.link)}></Button>
                                     </div>
                                 </div>
                                 <Rating value={project.star} readOnly cancel={false} className="project-rating"></Rating>
