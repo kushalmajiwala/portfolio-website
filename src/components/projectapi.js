@@ -24,7 +24,7 @@ const AllProject = [
         image: 'https://ivabqohtumjadxnipnsa.supabase.co/storage/v1/object/public/images/calc.png',
         name: 'Calculator Application',
         star: '4',
-        desc: 'his was one of my personal projects. I used ReactJS in this project.',
+        desc: 'This was one of my personal projects. I used ReactJS in this project.',
         link: 'https://calculator-application-2ub.pages.dev/'
     }
 ];
