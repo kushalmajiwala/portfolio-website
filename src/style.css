@@ -305,6 +305,9 @@
     .exp-content-container {
         display: inline;
     }
+    .exp-content {
+        padding-top: 5%;
+    }
 
     .nav-container {
         margin-left: 0%;

@@ -15,7 +15,7 @@ const Experience = () => {
                 </div>
                 <div className='exp-info-container'>
                     <div>
-                        <h1 style={{ color: '#f77a52' }}>FULL STACK DEVELOPER</h1>
+                        <h2 style={{ color: '#f77a52' }}>FULL STACK DEVELOPER</h2>
                         <div className='exp-content'>
                             <p>I have completed 6 months internship at Avinashi Ventures.Where I worked as full stack developer.
                                 I used different technologies like VueJS, ReactJS, Svelte, .Net, NodeJS in that time period.
