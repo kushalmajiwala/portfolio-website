@@ -25,7 +25,7 @@ const Contact = () => {
                         </p>
                     </div>
                     <div class="w3-col m7 contact-form-container">
-                        <div class="w3-container w3-card-4 w3-padding-16 " style={{ backgroundColor: '#080829' }}>
+                        <div class="w3-container w3-card-4 w3-padding-16 " style={{ backgroundColor: '#080829', borderRadius:'5px' }}>
                             <div class="w3-section">
                                 <label style={{color: '#F6B4A5'}}>Name</label>
                                 <input class="w3-input" type="text" required style={{ backgroundColor: '#21214B', color: 'white', border: 'none', borderRadius:'5px' }} />
