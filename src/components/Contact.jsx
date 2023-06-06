@@ -8,7 +8,7 @@ const Contact = () => {
             </div>
             <div class="w3-container w3-padding-64 w3-theme-l5 contact-content-container" id="contact">
                 <div class="w3-row">
-                    <div class="w3-col m5" className='contact-text-container'>
+                    <div class="w3-col m5 contact-text-container">
                         <div class="w3-padding-16">
                             <span class="w3-xlarge w3-border-teal w3-bottombar" style={{ color: '#fc7d49' }}>Contact Us</span>
                         </div>
@@ -24,7 +24,7 @@ const Contact = () => {
                             <i class="fa fa-envelope-o w3-xlarge" style={{ color: '#0eeaff' }} /><span style={{ marginLeft: '2%' }}>kushalmajiwala1212@gmail.com</span>
                         </p>
                     </div>
-                    <div class="w3-col m7" className='contact-form-container'>
+                    <div class="w3-col m7 contact-form-container">
                         <div class="w3-container w3-card-4 w3-padding-16 " style={{ backgroundColor: '#080829' }}>
                             <div class="w3-section">
                                 <label style={{color: '#F6B4A5'}}>Name</label>
