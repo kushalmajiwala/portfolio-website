@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Home from './components/Home';
 import About from './components/About';
 import Experience from './components/Experience';
@@ -13,13 +13,24 @@ const App = () => {
   const [modeIcon, setModeIcon] = useState('bi bi-brightness-high');
   const [modeName, setModeName] = useState('Light Mode');
 
+  useEffect(() => {
+    const current_mode = localStorage.getItem("ModeName");
+    if (current_mode === "-light") {
+      setMode(current_mode);
+      setModeIcon('bi bi-moon');
+      setModeName("Dark Mode");
+    }
+  }, []);
+
   const changeMode = () => {
     if (modeIcon === "bi bi-brightness-high") {
+      localStorage.setItem("ModeName", '-light');
       setModeIcon('bi bi-moon');
       setMode('-light');
       setModeName("Dark Mode");
     }
     else {
+      localStorage.setItem("ModeName", '');
       setModeIcon('bi bi-brightness-high');
       setMode('');
       setModeName("Light Mode");
@@ -63,19 +74,19 @@ const App = () => {
       </nav>
       <div style={{ display: 'inline' }}>
         <div id="home" className={`home-container${mode}`}>
-          <Home mode={mode}/>
+          <Home mode={mode} />
         </div>
         <div id="about" className={`about-container${mode}`}>
-          <About mode={mode}/>
+          <About mode={mode} />
         </div>
         <div id="experience" className={`exp-container${mode}`}>
-          <Experience mode={mode}/>
+          <Experience mode={mode} />
         </div>
         <div id="project" className={`project-container${mode}`}>
-          <Project mode={mode}/>
+          <Project mode={mode} />
         </div>
         <div id="contact" className={`contact-container${mode}`}>
-          <Contact mode={mode}/>
+          <Contact mode={mode} />
         </div>
       </div>
     </>
