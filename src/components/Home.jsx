@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Typed from 'typed.js';
 
-const Home = () => {
+const Home = ({ mode }) => {
     useEffect(() => {
         // eslint-disable-next-line
         var typed = new Typed('#element', {
@@ -27,20 +27,20 @@ const Home = () => {
     }
     return (
         <>
-            <div className='home-info-container'>
+            <div className={`home-info-container${mode}`}>
                 <div>
-                    <p className='home-info-text'>Hi, My name is <span className='home-diff-color'>Kushal</span></p>
-                    <p className='home-info-text'>and I am a passionate </p>
-                    <p><span className='home-info-text home-diff-color' id='element'></span><span className='home-info-text'> Developer</span></p>
-                    <div className="home-btn-container">
-                        <button className='btn' onClick={downloadResume}>Download Resume</button>
-                        <button className='btn' onClick={redirectGithub}>Visit Github</button>
+                    <p className={`home-info-text${mode}`}>Hi, My name is <span className={`home-diff-color${mode}`}>Kushal</span></p>
+                    <p className={`home-info-text${mode}`}>and I am a passionate </p>
+                    <p><span className={`home-info-text${mode} home-diff-color${mode}`} id='element'></span><span className={`home-info-text${mode}`}> Developer</span></p>
+                    <div className={`home-btn-container${mode}`}>
+                        <button className={`btn btn${mode}`} onClick={downloadResume}>Download Resume</button>
+                        <button className={`btn btn${mode}`} onClick={redirectGithub}>Visit Github</button>
                     </div>
                 </div>
             </div>
-            <div className='home-pic-container'>
+            <div className={`home-pic-container${mode}`}>
                 {/* eslint-disable-next-line */}
-                <img src='https://ivabqohtumjadxnipnsa.supabase.co/storage/v1/object/public/images/developer.png' alt="no-image" className='developer-image-home' />
+                <img src='https://ivabqohtumjadxnipnsa.supabase.co/storage/v1/object/public/images/developer.png' alt="no-image" className={`developer-image-home${mode}`} />
             </div>
         </>
     )

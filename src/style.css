@@ -1,3 +1,4 @@
+/* DARK MODE */
 /* App page containers */
 .navbar-image {
     filter: invert(100%);
@@ -11,10 +12,10 @@
 }
 
 .nav-container {
-    margin-left: 25%;
+    margin-left: 6%;
     display: flex;
-    width: 80%;
-    justify-content: space-evenly;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .nav-container li a {
@@ -39,6 +40,7 @@
     border-radius: 15px;
     width: 20%;
     height: 100%;
+    cursor: pointer;
 }
 
 .home-container {
@@ -431,7 +433,442 @@ p {
     color: #F6B4A5;
 }
 
-/* Responsiveness */
+/* LIGHT MODE */
+/* App page containers */
+.navbar-image-light {
+    filter: invert(100%);
+    width: 60%;
+    height: 80%;
+    margin-left: 15%;
+}
+
+.nav-main-container-light {
+    background-color: #1E1A48;
+}
+
+.nav-container-light {
+    margin-left: 6%;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.nav-container-light li a {
+    color: white;
+    display: inline-block;
+}
+
+.nav-container-light li a:hover {
+    color: white;
+}
+
+.nav-container-light li {
+    width: 20%;
+    height: 80%;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-container-light li:hover {
+    color: white;
+    background-color: #36365e;
+    border-radius: 15px;
+    width: 20%;
+    height: 100%;
+}
+
+.home-container-light {
+    width: 100%;
+    background-color: #110F2B;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.about-container-light {
+    background-color: #323061;
+}
+
+.exp-container-light {
+    background-color: #323061;
+}
+
+.project-container-light {
+    width: 100%;
+    background-color: #323061;
+}
+
+.contact-container-light {
+    background-color: #323061;
+    color: white;
+}
+
+
+/* Home page classes */
+.home-info-container-light {
+    width: 50%;
+    background-color: #323061;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-diff-color-light {
+    color: #9768d1;
+}
+
+.home-info-text-light {
+    font-size: 30px;
+    width: 100%;
+    margin-top: -3%;
+}
+
+.home-btn-container-light {
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.developer-image-home-light {
+    width: 95%;
+    height: 95%;
+}
+
+.btn-light {
+    color: white;
+    border: 2px solid white;
+    background-color: #2f2f53;
+}
+
+.btn-light:hover {
+    border: 2px solid white;
+    background-color: #46466e;
+}
+
+.home-pic-container-light {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #323061;
+    padding: 5%;
+}
+
+
+/* About page Classes */
+.about-heading-container-light {
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 2%;
+    background-color: #1E1A48;
+}
+
+.about-text-light,
+.exp-text-light,
+.contact-text-light,
+.project-text-light {
+    font-size: 30px;
+    height: 100px;
+    border-bottom: 2px solid red;
+    padding: 1.5%;
+}
+
+.about-diff-text-light {
+    margin-left: 1%;
+    color: #f77a52;
+    margin-top: 7%;
+}
+
+.about-content-container-light {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1A48;
+}
+
+.about-inner-container-light {
+    width: 50%;
+    margin-bottom: 7%;
+}
+
+.about-content-light {
+    margin-top: 5%;
+    color: white;
+    border-left: 2px solid #66ff99;
+    padding-left: 5%;
+    font-size: 18px;
+}
+
+.icons-container-light {
+    padding-top: 5%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-icon-light {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 1%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #272743;
+    border: none;
+}
+
+.about-icon-light:hover {
+    background-color: #383867;
+}
+
+.instaIcon-light {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.whaIcon-light {
+    background: radial-gradient(#25d366 100%, transparent 0);
+}
+
+.linkIcon-light {
+    background: radial-gradient(#5f5fec 100%, transparent 0);
+}
+
+.gitIcon-light {
+    background: -webkit-radial-gradient(40% 40%, circle cover, rgba(0, 0, 0, .5), rgba(0, 0, 0, 1));
+}
+
+
+/* Experience page Classes */
+.exp-heading-container-light {
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 2%;
+    background-color: #323061;
+}
+
+.exp-content-container-light {
+    display: flex;
+    color: white;
+}
+
+.exp-pic-container-light {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323061;
+    padding-top: 3%;
+}
+
+.exp-info-container-light {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323061;
+}
+
+.exp-diff-text-light {
+    color: #f77a52;
+}
+
+.exp-content-light {
+    width: 95%;
+    font-size: 18px;
+}
+
+.skill-container-light {
+    padding-top: 7%;
+}
+
+.skill-percent-light {
+    width: 70%;
+    height: 10px;
+    margin-top: -2%;
+    background-color: #0dae8e;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    cursor: pointer;
+}
+
+.total-skill-percent-light {
+    width: 30%;
+    height: 10px;
+    margin-top: -2%;
+    background-color: rgb(188, 188, 188);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+
+.reactSkill-light {
+    width: 90%;
+}
+
+.totalReactSkill-light {
+    width: 10%;
+}
+
+.vueSkill-light {
+    width: 70%;
+}
+
+.totalVueSkill-light {
+    width: 30%;
+}
+
+.nodeSkill-light {
+    width: 80%;
+}
+
+.totalNodeSkill-light {
+    width: 20%;
+}
+
+.javaSkill-light {
+    width: 60%;
+}
+
+.totalJavaSkill-light {
+    width: 40%;
+}
+
+p {
+    text-align: justify;
+}
+
+.developer-image-exp-light {
+    width: 80%;
+    height: 80%;
+}
+
+
+/* Project page Classes */
+.project-heading-container-light {
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 2%;
+    background-color: #1E1A48;
+}
+
+.project-content-container-light {
+    padding: 5%;
+    background-color: #1E1A48;
+}
+
+.project-card-container-light {
+    color: white;
+    background-color: #1E1A48;
+    border: none;
+}
+
+.project-card-inner-container-light {
+    width: 100%;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E1A48;
+    border-top: 1px solid white;
+}
+
+.project-desc-container-light {
+    width: 100%;
+    padding: 2%;
+}
+
+.project-desc-light {
+    padding: 2%;
+    text-align: justify;
+    font-size: 21px;
+}
+
+.project-name-light {
+    padding: 2%;
+    font-size: 40px;
+    color: #0dae8e;
+}
+
+.project-rating-light {
+    padding: 2%;
+}
+
+.project-pic-container-light {
+    width: 20%;
+    text-align: center;
+    padding: 3%;
+}
+
+.project-image-light {
+    height: 200px;
+    width: 180px;
+}
+
+.project-name-btn-container-light {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Contact page Classes */
+
+.contact-btn-light {
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: #0f0f41;
+    color: white;
+}
+
+.contact-btn-light:hover {
+    background-color: #262644;
+}
+
+.contact-us-color-light {
+    color: #fc7d49;
+}
+
+.contact-details-color-light {
+    color: #0eeaff;
+}
+
+.contact-heading-container-light {
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 2%;
+    background-color: #323061;
+}
+
+.contact-form-container-light {
+    background-color: #080829;
+    border-radius: 5px;
+}
+
+.contact-field-light {
+    background-color: #21214B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-field-text-color-light {
+    color: #F6B4A5;
+}
+
+/* Responsiveness Dark Mode*/
 @media only screen and (max-width: 992px) {
 
     .project-card-container {
@@ -580,6 +1017,159 @@ p {
     }
 
     .exp-info-container h1 {
+        margin-left: 0%;
+        text-align: center;
+    }
+}
+/* Responsiveness Light Mode */
+@media only screen and (max-width: 992px) {
+
+    .project-card-container-light {
+        border: none;
+        margin-top: 0.1%;
+        width: 100%;
+    }
+
+    .project-card-inner-container-light {
+        width: 100%;
+        display: inline;
+        padding-left: 0%;
+    }
+
+    .project-content-container-light {
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    .project-desc-container-light {
+        padding-bottom: 10%;
+    }
+
+    .project-image-light {
+        height: 180px;
+        width: 160px;
+    }
+
+    .project-pic-container-light {
+        width: 100%;
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    .project-name-light {
+        font-size: 20px;
+    }
+
+    .project-desc-light {
+        font-size: 18px;
+    }
+
+    .about-text-light,
+    .exp-text-light,
+    .contact-text-light,
+    .project-text-light {
+        padding: 2.7%;
+    }
+
+    .contact-text-container-light {
+        margin-top: -7%;
+    }
+
+    .contact-form-container-light {
+        padding-top: 7%;
+    }
+
+    .about-inner-container-light {
+        width: 100%;
+    }
+
+    .exp-content-container-light {
+        display: inline;
+    }
+
+    .exp-content-light {
+        padding-top: 5%;
+        padding-right: 3%;
+        width: 100%;
+    }
+
+    .nav-container-light {
+        margin-left: 0%;
+    }
+
+    .exp-pic-container-light {
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .exp-info-container-light {
+        width: 100%;
+        padding-left: 4%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .home-container-light {
+        display: inline;
+    }
+
+    .home-info-container-light {
+        width: 100%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .home-pic-container-light {
+        width: 100%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .navbar-image-light {
+        width: 150%;
+        height: 150%;
+    }
+
+    .nav-container-light li:hover {
+        background-color: #1E1A48;
+    }
+
+    .nav-container-light li a {
+        color: white;
+        width: 50px;
+    }
+
+    .home-btn-container-light {
+        margin-bottom: 7%;
+    }
+
+    .about-content-container-light {
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .about-content-light {
+        margin-top: 7%;
+        margin-left: 5%;
+        padding-bottom: 5%;
+        padding-right: 3%;
+    }
+
+    .icons-container-light {
+        width: 60%;
+    }
+
+    .about-text-light {
+        padding: 2.4%;
+    }
+
+    .skill-container-light {
+        padding-left: 5%;
+    }
+
+    .exp-info-container-light h1 {
         margin-left: 0%;
         text-align: center;
     }
