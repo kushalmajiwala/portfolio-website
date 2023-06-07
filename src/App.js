@@ -4,21 +4,25 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Contact from './components/Contact'
 import Project from './components/Project';
+import { Tooltip } from 'primereact/tooltip';
 import './style.css';
 
 const App = () => {
 
   const [mode, setMode] = useState('');
   const [modeIcon, setModeIcon] = useState('bi bi-brightness-high');
+  const [modeName, setModeName] = useState('Light Mode');
 
   const changeMode = () => {
     if (modeIcon === "bi bi-brightness-high") {
       setModeIcon('bi bi-moon');
       setMode('-light');
+      setModeName("Dark Mode");
     }
     else {
       setModeIcon('bi bi-brightness-high');
       setMode('');
+      setModeName("Light Mode");
     }
   }
 
@@ -28,8 +32,8 @@ const App = () => {
         <div class="container-fluid">
           {/* eslint-disable-next-line */}
           <a class="navbar-brand" href="#home" style={{ width: '20%' }}><img src='https://ivabqohtumjadxnipnsa.supabase.co/storage/v1/object/public/images/my_portfolio.png' alt="no-image" className={`navbar-image${mode}`} /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style={{ color: 'white' }}>
-            <span class="navbar-toggler-icon" style={{ filter: 'invert(100%)' }}></span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style={{ color: '#bfbfbf' }}>
+            <span class={`navbar-toggler-icon toggle-icon${mode}`} style={{ filter: 'invert(45%)' }}></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class={`navbar-nav me-auto mb-3 mb-lg-3 nav-container${mode}`}>
@@ -48,7 +52,8 @@ const App = () => {
               <li class="nav-item mt-3">
                 <a class="nav-link" aria-current="page" href="#contact">Contact</a>
               </li>
-              <li className='nav-item mt-3' onClick={changeMode}>
+              <Tooltip target=".change-theme-text" />
+              <li className='nav-item mt-3 change-theme-text' onClick={changeMode} data-pr-tooltip={modeName} data-pr-position='bottom'>
                 {/* eslint-disable-next-line */}
                 <a class="nav-link" aria-current="page"><i class={modeIcon}></i></a>
               </li>

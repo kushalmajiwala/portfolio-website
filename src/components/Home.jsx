@@ -11,7 +11,7 @@ const Home = ({ mode }) => {
             showCursor: false,
             backDelay: 2000
         });
-    })
+    });
 
     const redirectGithub = () => {
         let a = document.createElement('a');

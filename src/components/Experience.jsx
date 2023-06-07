@@ -8,9 +8,10 @@ const Experience = ({ mode }) => {
     useEffect(() => {
         AOS.init({
             offset: 400,
-            duration: 800
+            duration: 800,
+            once: true
         });
-    })
+    });
 
     return (
         <>
@@ -23,7 +24,7 @@ const Experience = ({ mode }) => {
                     <img src='https://ivabqohtumjadxnipnsa.supabase.co/storage/v1/object/public/images/work_experience.png' alt="no-image" className={`developer-image-exp${mode}`} />
                 </div>
                 <div className={`exp-info-container${mode}`}>
-                    <div data-aos="fade-up">
+                    <div className={`exp-info-main-container${mode}`} data-aos="fade-up">
                         <h2 className={`exp-diff-text${mode}`}>FULL STACK DEVELOPER</h2>
                         <div className={`exp-content${mode}`}>
                             <p>I have completed 6 months internship at Avinashi Ventures.Where I worked as full stack developer.

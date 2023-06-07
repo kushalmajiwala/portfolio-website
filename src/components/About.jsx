@@ -3,14 +3,15 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-export const About = ({ mode }) => {
+const About = ({ mode }) => {
 
     useEffect(() => {
         AOS.init({
             offset: 400,
-            duration: 800
+            duration: 800,
+            once: true
         });
-    })
+    });
 
     const handleIconClick = (iconName) => {
         if (iconName === "instagram") {

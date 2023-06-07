@@ -20,7 +20,8 @@ const Project = ({ mode }) => {
     useEffect(() => {
         AOS.init({
             offset: 400,
-            duration: 800
+            duration: 800,
+            once: true
         });
     });
 
@@ -64,10 +65,10 @@ const Project = ({ mode }) => {
 
     return (
         <>
-            <div className='project-heading-container'>
-                <span className='project-text'>PROJECTS</span>
+            <div className={`project-heading-container${mode}`}>
+                <span className={`project-text${mode}`}>PROJECTS</span>
             </div>
-            <div className='project-content-container'>
+            <div className={`project-content-container${mode}`}>
                 <DataView value={projectData} itemTemplate={ProjectCard} style={{ border:'none' }}/>
             </div>
         </>

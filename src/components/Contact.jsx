@@ -7,7 +7,8 @@ const Contact = ({ mode }) => {
     useEffect(() => {
         AOS.init({
             offset: 400,
-            duration: 800
+            duration: 800,
+            once: true
         });
     });
 
