@@ -1,7 +1,7 @@
 const AllProject = [
     {
         image: 'https://ivabqohtumjadxnipnsa.supabase.co/storage/v1/object/public/images/cv.png',
-        name: 'CV Managerment System',
+        name: 'CV Management System',
         star: '4',
         desc: 'This was one of my college projects. I used .NET, AWS, Svelte in this project.',
         link: 'https://cvproject.pages.dev/kushal_1212'
