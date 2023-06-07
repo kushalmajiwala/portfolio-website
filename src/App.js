@@ -52,7 +52,7 @@ const App = () => {
               <li class="nav-item mt-3">
                 <a class="nav-link" aria-current="page" href="#contact">Contact</a>
               </li>
-              <Tooltip target=".change-theme-text" />
+              <Tooltip target=".change-theme-text" className='change-theme-tip' />
               <li className='nav-item mt-3 change-theme-text' onClick={changeMode} data-pr-tooltip={modeName} data-pr-position='bottom'>
                 {/* eslint-disable-next-line */}
                 <a class="nav-link" aria-current="page"><i class={modeIcon}></i></a>

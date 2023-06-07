@@ -871,6 +871,10 @@ p {
 /* Responsiveness Dark Mode*/
 @media only screen and (max-width: 992px) {
 
+    .change-theme-tip {
+        display: none;
+    }
+    
     .project-card-container {
         border: none;
         margin-top: 0.1%;
