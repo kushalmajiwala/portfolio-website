@@ -446,7 +446,7 @@ p {
 }
 
 .nav-main-container-light {
-    background-color: #d5d5d5;
+    background-color: #eaeaea;
 }
 
 .nav-container-light {
@@ -470,7 +470,7 @@ p {
 
 .nav-container-light li:hover {
     color: white;
-    background-color: #b2b2b2;
+    background-color: #d7d7d7;
     border-radius: 15px;
     width: 20%;
     height: 100%;
@@ -487,7 +487,7 @@ p {
 /* Home page classes */
 .home-info-container-light {
     width: 50%;
-    background-color: #e6e6e6;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -533,7 +533,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e6e6e6;
+    background-color: #ffffff;
     padding: 5%;
 }
 
@@ -544,10 +544,10 @@ p {
     text-align: center;
     color: rgb(42, 1, 42);
     padding: 2%;
-    background-color: #d5d5d5;
+    background-color: #eaeaea;
 }
 .about-container-light {
-    background-color: #323061;
+    background-color: #eaeaea;
 }
 
 .about-text-light,
@@ -570,7 +570,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #d5d5d5;
+    background-color: #eaeaea;
 }
 
 .about-inner-container-light {
@@ -637,7 +637,7 @@ p {
     text-align: center;
     color: rgb(42, 1, 42);
     padding: 2%;
-    background-color: #e6e6e6;
+    background-color: #ffffff;
 }
 
 .exp-container-light {
@@ -654,7 +654,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e6e6e6;
+    background-color: #ffffff;
     padding-top: 3%;
 }
 
@@ -663,7 +663,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e6e6e6;
+    background-color: #ffffff;
 }
 
 .exp-diff-text-light {
@@ -747,22 +747,22 @@ p {
     text-align: center;
     color: rgb(42, 1, 42);
     padding: 2%;
-    background-color: #d5d5d5;
+    background-color: #eaeaea;
 }
 
 .project-container-light {
     width: 100%;
-    background-color: #d5d5d5;
+    background-color: #eaeaea;
 }
 
 .project-content-container-light {
     padding: 5%;
-    background-color: #d5d5d5;
+    background-color: #eaeaea;
 }
 
 .project-card-container-light {
     color: black;
-    background-color: #d5d5d5;
+    background-color: #eaeaea;
     border: none;
 }
 
@@ -772,7 +772,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #d5d5d5;
+    background-color: #eaeaea;
     border-top: 1px solid white;
 }
 
@@ -821,18 +821,18 @@ p {
     width: 100%;
     height: 40px;
     border-radius: 15px;
-    border: 2px solid black;
-    background-color: #a1a1a1;
+    border: none;
+    background-color: #b1b1b1;
     color: black;
 }
 
 .contact-container-light {
-    background-color: #e6e6e6;
+    background-color: #ffffff;
     color: white;
 }
 
 .contact-btn-light:hover {
-    background-color: #787878;
+    background-color: #999999;
 }
 
 .contact-us-color-light {
@@ -848,7 +848,7 @@ p {
     text-align: center;
     color: rgb(42, 1, 42);
     padding: 2%;
-    background-color: #e6e6e6;
+    background-color: #ffffff;
 }
 
 .contact-form-container-light {
