@@ -26,7 +26,7 @@ const AllProject = [
         star: '4',
         desc: 'This was one of my personal projects. I used ReactJS in this project.',
         link: 'https://calculator-application-2ub.pages.dev/'
-    }
+    },
 ];
 
 export default AllProject;

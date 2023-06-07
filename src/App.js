@@ -9,7 +9,7 @@ import './style.css';
 const App = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg" style={{ backgroundColor: '#1E1A48' }}>
+      <nav class="navbar navbar-expand-lg nav-main-container">
         <div class="container-fluid">
           {/* eslint-disable-next-line */}
           <a class="navbar-brand" href="#home" style={{ width: '20%', color: 'white' }}><img src='https://ivabqohtumjadxnipnsa.supabase.co/storage/v1/object/public/images/my_portfolio.png' alt="no-image" className="navbar-image" /></a>

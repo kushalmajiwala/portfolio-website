@@ -29,9 +29,9 @@ const Home = () => {
         <>
             <div className='home-info-container'>
                 <div>
-                    <p className='home-info-text'>Hi, My name is <span style={{ color: '#9768d1' }}>Kushal</span></p>
+                    <p className='home-info-text'>Hi, My name is <span className='home-diff-color'>Kushal</span></p>
                     <p className='home-info-text'>and I am a passionate </p>
-                    <p><span className='home-info-text' id='element' style={{ color: '#9768d1' }}></span><span className='home-info-text'> Developer</span></p>
+                    <p><span className='home-info-text home-diff-color' id='element'></span><span className='home-info-text'> Developer</span></p>
                     <div className="home-btn-container">
                         <button className='btn' onClick={downloadResume}>Download Resume</button>
                         <button className='btn' onClick={redirectGithub}>Visit Github</button>

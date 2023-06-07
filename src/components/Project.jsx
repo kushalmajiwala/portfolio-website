@@ -5,6 +5,8 @@ import { DataView } from 'primereact/dataview';
 import { Button } from 'primereact/button';
 import { Rating } from 'primereact/rating';
 import { Tooltip } from 'primereact/tooltip';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Project = () => {
@@ -14,6 +16,13 @@ const Project = () => {
     useEffect(() => {
         setProjectData(AllProject);
     }, [])
+
+    useEffect(() => {
+        AOS.init({
+            offset: 400,
+            duration: 800
+        });
+    });
 
     const handleViewButtonClick = (project_url) => {
         let a = document.createElement('a');
@@ -26,7 +35,7 @@ const Project = () => {
         return (
             <>
                 <div className="project-card-container">
-                    <div className="project-card-inner-container">
+                    <div className="project-card-inner-container"  data-aos="fade-up">
                         <div className='project-pic-container'>
                             <img className="project-image" src={`${project.image}`} alt={project.name} />
                         </div>

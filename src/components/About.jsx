@@ -1,6 +1,16 @@
 import React from 'react';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const About = () => {
+
+    useEffect(() => {
+        AOS.init({
+            offset: 400,
+            duration: 800
+        });
+    })
 
     const handleIconClick = (iconName) => {
         if (iconName === "instagram") {
@@ -35,8 +45,8 @@ export const About = () => {
                 <span className='about-text'>ABOUT</span>
             </div>
             <div className='about-content-container'>
-                <div className='about-inner-container'>
-                    <h1 style={{ marginLeft: '1%', color: '#f77a52', marginTop:'7%' }}>Kushal Majiwala</h1>
+                <div className='about-inner-container' data-aos="fade-up">
+                    <h1 className='about-diff-text'>Kushal Majiwala</h1>
                     <div className='about-content'>
                         <p>My name is Kushal. I live in Surat. I am a full stack developer. I am a passionate learner. I have completed MSCIT from VNSGU. I have completed 6 months internship at Avinashi Ventures. I worked in Vuejs for frontend and .NET for backend during that time period. I worked on two projects in my internship.</p>
                         <p>I have worked in many frontend projects and deployed those projects on internet using cloudflare web service.</p>

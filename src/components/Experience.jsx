@@ -1,8 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Tooltip } from 'primereact/tooltip';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Experience = () => {
+
+    useEffect(() => {
+        AOS.init({
+            offset: 400,
+            duration: 800
+        });
+    })
+
     return (
         <>
             <div className='exp-heading-container'>
@@ -14,8 +23,8 @@ const Experience = () => {
                     <img src='https://ivabqohtumjadxnipnsa.supabase.co/storage/v1/object/public/images/work_experience.png' alt="no-image" className='developer-image-exp' />
                 </div>
                 <div className='exp-info-container'>
-                    <div>
-                        <h2 style={{ color: '#f77a52' }}>FULL STACK DEVELOPER</h2>
+                    <div data-aos="fade-up">
+                        <h2 className='exp-diff-text'>FULL STACK DEVELOPER</h2>
                         <div className='exp-content'>
                             <p>I have completed 6 months internship at Avinashi Ventures.Where I worked as full stack developer.
                                 I used different technologies like VueJS, ReactJS, Svelte, .Net, NodeJS in that time period.
