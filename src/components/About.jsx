@@ -53,10 +53,10 @@ const About = ({ mode }) => {
                         <p>I have worked in many frontend projects and deployed those projects on internet using cloudflare web service.</p>
                         <p>I also have expertise in AWS Lambda. I have also built many projects in ReactJS and I used Supabase as backend for database operations. </p>
                         <div className={`icons-container${mode}`}>
-                            <p className={`about-icon${mode} instaIcon${mode}`} onClick={() => handleIconClick("instagram")}><i class="bi bi-instagram"></i></p>
-                            <p className={`about-icon${mode} whaIcon${mode}`} onClick={() => handleIconClick("whatsapp")}><i class="bi bi-whatsapp"></i></p>
-                            <p className={`about-icon${mode} linkIcon${mode}`} onClick={() => handleIconClick("linkedin")}><i class="bi bi-linkedin"></i></p>
-                            <p className={`about-icon${mode} gitIcon${mode}`} onClick={() => handleIconClick("github")}><i class="bi bi-github"></i></p>
+                            <p className={`about-icon${mode} instaIcon${mode}`} onClick={() => handleIconClick("instagram")}><i className="bi bi-instagram"></i></p>
+                            <p className={`about-icon${mode} whaIcon${mode}`} onClick={() => handleIconClick("whatsapp")}><i className="bi bi-whatsapp"></i></p>
+                            <p className={`about-icon${mode} linkIcon${mode}`} onClick={() => handleIconClick("linkedin")}><i className="bi bi-linkedin"></i></p>
+                            <p className={`about-icon${mode} gitIcon${mode}`} onClick={() => handleIconClick("github")}><i className="bi bi-github"></i></p>
                         </div>
                     </div>
                 </div>

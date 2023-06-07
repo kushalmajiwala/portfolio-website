@@ -244,6 +244,7 @@
     justify-content: center;
     align-items: center;
     background-color: #323061;
+    padding-top: 2%;
 }
 
 .exp-diff-text {
@@ -256,7 +257,8 @@
 }
 
 .skill-container {
-    padding-top: 7%;
+    padding-top: 3%;
+    padding-bottom: 7%;
 }
 
 .skill-percent {
@@ -664,6 +666,7 @@ p {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
+    padding-top: 2%;
 }
 
 .exp-diff-text-light {
@@ -676,7 +679,8 @@ p {
 }
 
 .skill-container-light {
-    padding-top: 7%;
+    padding-top: 3%;
+    padding-bottom: 7%;
 }
 
 .skill-percent-light {
@@ -867,6 +871,9 @@ p {
 .contact-field-text-color-light {
     color: #54261c;
 }
+.skill-name {
+    margin-top: 2%;
+}
 
 /* Responsiveness Dark Mode*/
 @media only screen and (max-width: 992px) {
@@ -874,7 +881,7 @@ p {
     .change-theme-tip {
         display: none;
     }
-    
+
     .project-card-container {
         border: none;
         margin-top: 0.1%;
@@ -1017,6 +1024,7 @@ p {
 
     .skill-container {
         padding-left: 5%;
+        padding-bottom: 5%;
     }
 
     .exp-info-container h1 {
@@ -1174,6 +1182,7 @@ p {
 
     .skill-container-light {
         padding-left: 5%;
+        padding-bottom: 5%;
     }
 
     .exp-info-container-light h1 {

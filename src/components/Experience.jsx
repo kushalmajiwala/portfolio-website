@@ -33,25 +33,26 @@ const Experience = ({ mode }) => {
                             </p>
                         </div>
                         <div className={`skill-container${mode}`}>
-                            <p className={`skill-name${mode}`}>ReactJS</p>
+                            <h2 className={`exp-diff-text${mode}`}>MY SKILLS</h2>
+                            <p className={`skill-name`}>ReactJS</p>
                             <div style={{ width: '90%' }}>
                                 <Tooltip target={`.reactSkill${mode}`} />
-                                <p style={{ display: 'flex' }}><p className={`skill-percent${mode} reactSkill${mode}`} data-pr-tooltip="90%" data-pr-position="top" data-pr-at="right top"></p><p className={`total-skill-percent${mode} totalReactSkill${mode}`}></p></p>
+                                <div style={{ display: 'flex' }}><p className={`skill-percent${mode} reactSkill${mode}`} data-pr-tooltip="90%" data-pr-position="top" data-pr-at="right top"></p><p className={`total-skill-percent${mode} totalReactSkill${mode}`}></p></div>
                             </div>
-                            <p cpName='skill-name'>VueJS</p>
+                            <p className='skill-name'>VueJS</p>
                             <div style={{ width: '90%' }}>
                                 <Tooltip target={`.vueSkill${mode}`} />
-                                <p style={{ display: 'flex' }}><p className={`skill-percent${mode} vueSkill${mode}`} data-pr-tooltip="70%" data-pr-position="top" data-pr-at="right top"></p><p className={`total-skill-percent${mode} totalVueSkill${mode}`}></p></p>
+                                <div style={{ display: 'flex' }}><p className={`skill-percent${mode} vueSkill${mode}`} data-pr-tooltip="70%" data-pr-position="top" data-pr-at="right top"></p><p className={`total-skill-percent${mode} totalVueSkill${mode}`}></p></div>
                             </div>
                             <p className='skill-name'>NodeJS</p>
                             <div style={{ width: '90%' }}>
                                 <Tooltip target={`.nodeSkill${mode}`} />
-                                <p style={{ display: 'flex' }}><p className={`skill-percent${mode} nodeSkill${mode}`} data-pr-tooltip="80%" data-pr-position="top" data-pr-at="right top"></p><p className={`total-skill-percent${mode} totalNodeSkill${mode}`}></p></p>
+                                <div style={{ display: 'flex' }}><p className={`skill-percent${mode} nodeSkill${mode}`} data-pr-tooltip="80%" data-pr-position="top" data-pr-at="right top"></p><p className={`total-skill-percent${mode} totalNodeSkill${mode}`}></p></div>
                             </div>
                             <p className='skill-name'>Java</p>
                             <div style={{ width: '90%' }}>
                                 <Tooltip target={`.javaSkill${mode}`} />
-                                <p style={{ display: 'flex' }}><p className={`skill-percent${mode} javaSkill${mode}`} data-pr-tooltip="60%" data-pr-position="top" data-pr-at="right top"></p><p className={`total-skill-percent${mode} totalJavaSkill${mode}`}></p></p>
+                                <div style={{ display: 'flex' }}><p className={`skill-percent${mode} javaSkill${mode}`} data-pr-tooltip="60%" data-pr-position="top" data-pr-at="right top"></p><p className={`total-skill-percent${mode} totalJavaSkill${mode}`}></p></div>
                             </div>
                         </div>
                     </div>
