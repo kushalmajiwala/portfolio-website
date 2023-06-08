@@ -438,6 +438,9 @@ p {
 .contact-field-text-color {
     color: #F6B4A5;
 }
+.mode-toggler-container {
+    display: none;
+}
 
 /* LIGHT MODE */
 /* App page containers */
@@ -874,9 +877,20 @@ p {
 .skill-name {
     margin-top: 2%;
 }
+.mode-toggler-container-light {
+    display: none;
+}
 
 /* Responsiveness Dark Mode*/
 @media only screen and (max-width: 992px) {
+    .change-theme-text {
+        display: none;
+    }
+    .mode-toggler-container {
+        display: flex;
+        width: 15vh;
+        justify-content: space-between;
+    }
 
     .change-theme-tip {
         display: none;
@@ -954,6 +968,10 @@ p {
     .nav-container li {
         width: 100%;
         text-align: left;
+        margin-left: 5%;
+    }
+    .nav-container li a {
+        width: 100%;
     }
     .nav-container li:hover {
         background-color: #1E1A48;
@@ -1039,6 +1057,11 @@ p {
         border: none;
         margin-top: 0.1%;
         width: 100%;
+    }
+    .mode-toggler-container-light {
+        display: flex;
+        width: 15vh;
+        justify-content: space-between;
     }
 
     .toggle-icon-light {
@@ -1150,6 +1173,7 @@ p {
     .nav-container-light li {
         width: 100%;
         text-align: left;
+        margin-left: 5%;
     }
     .nav-container-light li:hover {
         background-color: #eaeaea;

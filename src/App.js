@@ -5,6 +5,7 @@ import Experience from './components/Experience';
 import Contact from './components/Contact'
 import Project from './components/Project';
 import { Tooltip } from 'primereact/tooltip';
+import { Button } from 'primereact/button';
 import './style.css';
 
 const App = () => {
@@ -43,9 +44,13 @@ const App = () => {
         <div className="container-fluid">
           {/* eslint-disable-next-line */}
           <a className="navbar-brand" href="#home" style={{ width: '20%' }}><img src='https://ivabqohtumjadxnipnsa.supabase.co/storage/v1/object/public/images/my_portfolio.png' alt="no-image" className={`navbar-image${mode}`} /></a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style={{ color: '#bfbfbf' }}>
-            <span className={`navbar-toggler-icon toggle-icon${mode}`} style={{ filter: 'invert(45%)' }}></span>
-          </button>
+          <div className={`mode-toggler-container${mode}`}>
+            {/* eslint-disable-next-line */}
+            <Button icon={modeIcon} rounded outlined severity="secondary" aria-label="Bookmark" onClick={changeMode} />
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style={{ color: '#bfbfbf' }}>
+              <span className={`navbar-toggler-icon toggle-icon${mode}`} style={{ filter: 'invert(45%)' }}></span>
+            </button>
+          </div>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className={`navbar-nav me-auto mb-3 mb-lg-3 nav-container${mode}`}>
               <li className="nav-item mt-3">
