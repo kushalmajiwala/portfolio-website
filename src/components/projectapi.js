@@ -27,6 +27,13 @@ const AllProject = [
         desc: 'This was one of my personal projects. I used ReactJS in this project.',
         link: 'https://calculator-application-2ub.pages.dev/'
     },
+    {
+        image: 'https://ivabqohtumjadxnipnsa.supabase.co/storage/v1/object/public/images/ecommerce_image.jpg',
+        name: 'E-Commerce Website',
+        star: '4',
+        desc: 'This was one of my personal projects. I used ReactJS, tailwindCSS and Primefaces in this project.',
+        link: 'https://unique-store-website.pages.dev/'
+    },
 ];
 
 export default AllProject;
