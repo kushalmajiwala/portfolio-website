@@ -52,7 +52,7 @@ const Experience = ({ mode }) => {
                             <p className='skill-name'>Java</p>
                             <div style={{ width: '90%' }}>
                                 <Tooltip target={`.javaSkill${mode}`} />
-                                <div style={{ display: 'flex' }}><p className={`skill-percent${mode} javaSkill${mode}`} data-pr-tooltip="60%" data-pr-position="top" data-pr-at="right top"></p><p className={`total-skill-percent${mode} totalJavaSkill${mode}`}></p></div>
+                                <div style={{ display: 'flex' }}><p className={`skill-percent${mode} javaSkill${mode}`} data-pr-tooltip="90%" data-pr-position="top" data-pr-at="right top"></p><p className={`total-skill-percent${mode} totalJavaSkill${mode}`}></p></div>
                             </div>
                         </div>
                     </div>

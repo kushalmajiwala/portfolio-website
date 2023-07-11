@@ -22,7 +22,7 @@ const Home = ({ mode }) => {
     const downloadResume = () => {
         let a = document.createElement('a');
         a.target = '_blank';
-        a.href = "https://ivabqohtumjadxnipnsa.supabase.co/storage/v1/object/public/images/KushalMajiwala's%20Resume.pdf";
+        a.href = "https://ivabqohtumjadxnipnsa.supabase.co/storage/v1/object/public/images/Kushal's%20Resume.pdf";
         a.click();
     }
     return (
